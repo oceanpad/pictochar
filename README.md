@@ -19,5 +19,5 @@
 * usage 用法：
 
 ```python
-python picToChars pic.png [-o output.txt] [-w 100] [-h 100]
+python picToChars pic.png [-o output.txt] [-w 100] [-ht 100]
 ```
