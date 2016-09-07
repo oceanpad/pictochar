@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('file', help='the picture to convert')
 parser.add_argument('-o', '--output', help="the filename to output, default 'output.txt' ")
 parser.add_argument('-w', '--width', type=int, help='the width of output file')
-parser.add_argument('-ht', '--height', type=int, help='the height of output file')
+parser.add_argument('-h', '--height', type=int, help='the height of output file')
 args = parser.parse_args()
 
 # You can add another str to change chars(left to right, black to white):
